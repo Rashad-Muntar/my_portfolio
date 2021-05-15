@@ -339,6 +339,47 @@ nav .wrapper a{
      margin-top: 20px;
  }
 
+
+ @media screen and (max-width: 1024px){
+    .header {
+        height: 44vh;
+    }
+
+    .my-works {
+        width: 95vw;
+    }
+
+    .about_me {
+        width: 95vw;
+    }
+
+    .about_me .tools {
+        width: 48%;
+    }
+
+
+    .header .content-wrapper .content {
+        width: 85%;
+    }
+
+ }
+
+
+ @media screen and (max-width: 768px){
+    .about_me .tools {
+        margin-left: 71px;
+    }
+
+    .contact_wrapper > div {
+        width: 95vw;
+    }
+
+    .contact_wrapper .medium > div > div {
+        padding: 22px;
+    }
+
+ }
+
  @media screen and (max-width: 480px){
 
     .my-works{
